@@ -1,0 +1,17 @@
+---
+title: DataBro
+subtitle: Data Management Platform.
+layout: default
+modal-id: 6
+date: 2017-01-1
+permalink: databro
+img: databro.png
+thumbnail: databro-thumb.png
+alt: image-alt
+project-date: 2017
+client: In-house Project
+site: https://db.co.tz
+category: Platforms
+description: DataBro is a data management platform for "serious" projects.
+
+---

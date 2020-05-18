@@ -1,0 +1,17 @@
+---
+title: Nauza
+subtitle: Transforming Businesses.
+layout: default
+modal-id: 5
+date: 2017-01-1
+permalink: nauza
+img: nauza.png
+thumbnail: nauza-thumb.png
+alt: image-alt
+project-date: 2017
+client: In-house Project
+site: https://nauza.ga
+category: Platforms
+description: Nauza is an initiative to transform small and medium enterprises by providing them with a platform to manage their businesses.
+
+---

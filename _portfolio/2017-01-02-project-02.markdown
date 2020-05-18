@@ -1,0 +1,17 @@
+---
+title: Pendaga
+subtitle: For the love of amazing content.
+layout: default
+modal-id: 2
+date: 2017-01-1
+permalink: pendaga
+img: pendaga.png
+thumbnail: pendaga-thumb.png
+alt: image-alt
+project-date: 2017
+client: In-house Project
+site: https://pendaga.com
+category: Platforms
+description: Pendaga hosts amazing content, shared by you and rated by you. Join now to earn points and win awards.
+
+---

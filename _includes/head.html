@@ -1,0 +1,80 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{ post.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Search engines -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{ post.description }}{% else %}{{ site.description }}{% endif %}">
+<!-- Google Plus -->
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
+<meta itemprop="name" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.title }}{% endif %}">
+<meta itemprop="description" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{ post.description }}{% else %}{{ site.description }}{% endif %}">
+<!-- Open Graph General (Facebook & Pinterest) -->
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{ post.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:image" content="{{ "/img/ogimage.png" | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="fb:admins" content="thedextazlab">
+<meta property="fb:app_id" content="223730638048507">
+<meta property="og:type" content="company">
+<meta property="og:locale" content="en_US">
+<meta property="og:audio" content="">
+<meta property="og:video" content="">
+<!-- Open Graph Article (Facebook & Pinterest) -->
+<meta property="article:author" content="https://www.facebook.com/thedextazlab.studios">
+<meta property="article:section" content="Technology">
+<meta property="article:tag" content="">
+<meta property="article:published_time" content="">
+<meta property="article:modified_time" content="">
+<meta property="article:expiration_time" content="">
+<!-- Twitter -->
+<meta name="twitter:card" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{ post.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="@thedextazlab">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif post.description %}{{ post.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:creator" content="@thedextazlab">
+<meta name="twitter:image:src" content="{{ "/img/ogimage.png" | prepend: site.baseurl | prepend: site.url }}">
+<meta name="twitter:player" content="">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ "/img/icons/icon-512x512.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="384x384"  href="{{ "/img/icons/icon-384x384.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "/img/icons/icon-192x192.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="152x152" href="{{ "/img/icons/icon-152x152.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="144x144" href="{{ "/img/icons/icon-144x144.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="128x128" href="{{ "/img/icons/icon-128x128.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="96x96"  href="{{ "/img/icons/icon-96x96.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="72x72" href="{{ "/img/icons/icon-72x72.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/icons/icon-32x32.png" | prepend: site.baseurl }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/icons/icon-16x16.png" | prepend: site.baseurl }}">
+<link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl }}">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{{ "/img/icons/icon-144x144.png" | prepend: site.baseurl }}">
+<meta name="theme-color" content="#000">
+<meta name="p:domain_verify" content="a07f2e1c0ed7a350115975fb0a250b87"/>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TQJVCPW');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+
+    <!-- Custom Fonts -->
+    <!--<link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">-->
+    <script src="https://use.fontawesome.com/e0c22889ca.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Roboto+Condensed:400,400i,700,700i|Kalam:300,400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

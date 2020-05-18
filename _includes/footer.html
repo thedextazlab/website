@@ -1,0 +1,29 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="copyright">&copy; {{ site.title }}. All Rights Reserved.</span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <ul class="list-inline quicklinks" style="padding-top: 10px;font-size: 12px;border-top: 1px solid #eee;margin-top: 20px;">
+                        <li><a href="/privacy">Privacy Policy</a>
+                        </li>
+                        <li><a href="/terms">Terms of Use</a>
+                        </li>
+                        <li><a href="/cookies">Cookies Policy</a>
+                        </li>
+                        <li><a href="https://crm.thedextazlab.com"><i class="fa fa-lock"></i> CRM</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

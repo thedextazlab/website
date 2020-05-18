@@ -1,0 +1,17 @@
+---
+title: Sikiaga
+subtitle: Where music lives.
+layout: default
+modal-id: 3
+date: 2017-01-1
+permalink: sikiaga
+img: sikiaga.png
+thumbnail: sikiaga-thumb.png
+alt: image-alt
+project-date: 2017
+client: In-house Project
+site: https://sikia.ga
+category: Platforms
+description: Sikiaga is a music streaming platform powered by Spotify, Last.fm and YouTube.
+
+---

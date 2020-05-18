@@ -1,0 +1,13 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 008ab5
+  secondary: 008ab5   
+  secondary-dark: 333
+  muted: 222
+  muted-light: eee
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Roboto Condensed", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  subheadings: '"Kalam", sans-serif'

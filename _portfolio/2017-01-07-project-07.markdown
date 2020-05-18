@@ -1,0 +1,17 @@
+---
+title: Native Tours
+subtitle: An unforgettable Tanzanian safari experience.
+layout: default
+modal-id: 7
+date: 2017-01-1
+permalink: native
+img: native.png
+thumbnail: native-thumb.png
+alt: image-alt
+project-date: 2017
+client: Native Tours Company Limited
+site: https://www.native.co.tz
+category: Website Development + Branding + ICT Consultancy
+description: Native Tours Company Limited is based in Arusha, Tanzania, offering maximum tour experience all over the country with various itineraries and safari options. If you are planning for a safari in Tanzania, look no further. Learn more on their website.
+
+---

@@ -1,0 +1,17 @@
+---
+title: Chezaga
+subtitle: Play thousands of games for free.
+layout: default
+modal-id: 4
+date: 2017-01-1
+permalink: chezaga
+img: chezaga.png
+thumbnail: chezaga-thumb.png
+alt: image-alt
+project-date: 2017
+client: In-house Project
+site: https://cheza.ga
+category: Platforms
+description: Chezaga, from the Swahili word "cheza" which directly translates to "play", is an arcade gaming platform for everyone to play. We have classics like Sudoku, Mahjong, Cut the Rope and a lot more. Join now and play thousands of games for free!.
+
+---

@@ -1,0 +1,17 @@
+---
+title: PigaSoga
+subtitle: Raise Your Voice. Be Heard.
+layout: default
+modal-id: 1
+date: 2017-01-1
+permalink: pigasoga
+img: pigasoga.png
+thumbnail: pigasoga-thumb.png
+alt: image-alt
+project-date: 2017
+client: In-house Project
+site: https://pigaso.ga
+category: Platforms
+description: PigaSoga is a place to raise your voice and be heard. A public forum for all.
+
+---

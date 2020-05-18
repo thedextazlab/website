@@ -1,0 +1,89 @@
+url: https://www.thedextazlab.com
+baseurl:
+
+# Site settings
+title: THEDEXTAZLAB STUDIOS
+email: info@thedextazlab.com
+description: "Creating Amazing Experiences for Home, Work, and Play."
+destination: /CDN/website
+
+# Team names, titles and social links
+people:
+- name: David Kisamfu
+  pic: 1
+  position: Founder
+  social:
+    - title: twitter
+      url: https://twitter.com/thedextazlab
+    - title: facebook
+      url: https://facebook.com/thedextazlab
+    - title: linkedin
+      url: https://go.thedextazlab.com/linkedin
+    - title: instagram
+      url: https://www.instagram.com/davidkisamfu
+
+- name: Vivian Mafikiri
+  pic: 2
+  position: Chief Financial Officer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Nelson J. Swai
+  pic: 3
+  position: Chief Technology Officer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/thedextazlab
+  - title: facebook
+    url: https://facebook.com/thedextazlab.studios
+  - title: instagram
+    url: https://instagram.com/thedextazlab
+  - title: linkedin
+    url: https://go.thedextazlab.com/linkedin
+  - title: github
+    url: http://github.com/thedextazlab
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 8 Ruvu Street, Masaki
+  - line: Dar es Salaam, Tanzania
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: pages
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: posts
+      
+# Reading Files
+include:
+  - _pages
+  - _posts
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
