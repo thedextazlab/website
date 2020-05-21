@@ -288,7 +288,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-right {
     transition: all 0.5s ease-in-out;
-    opacity: 0!important;
+    opacity: 1!important;
 }
 .navbar-animate {
     opacity: 1!important;
