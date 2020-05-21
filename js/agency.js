@@ -49,6 +49,7 @@ $('div.modal').on('show.bs.modal', function() {
 // Page has loaded? Let's do some extra magic
 $(window).one('load', function(e) {
   $('nav').addClass('DONE').removeClass('LOADING');
+  $('.navbar-right').css({"opacity":"1!important"});
   story = ["Well, I am not sure why you are here, but you must be a geek. Nobody reads console logs unless they missed a shower, never got the girl, not really got any cool friends - and they are driving a Scion xA. Well, I am none of those. Except, the Scion xA, which is the Toyota IST in our market here in Tanzania. A 2004 car, see it here: https://go.thedextazlab.com/thecarilovetohatebutiloveitanyway",
   "Okay, I just shared a link, did you click it? No? I will wait. Giving you 60 seconds... And the timer starts.... now!",
   "" ,
