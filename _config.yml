@@ -5,7 +5,7 @@ baseurl:
 title: THEDEXTAZLAB STUDIOS
 email: info@thedextazlab.com
 description: "Creating Amazing Experiences for Home, Work, and Play."
-destination: /CDN/website
+# destination: /CDN/website
 
 # Team names, titles and social links
 people:
