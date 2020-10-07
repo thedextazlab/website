@@ -1,6 +1,25 @@
-     <form class="kwes-form" action="https://kwes.io/api/foreign/forms/QN4b2PaM7IQHLwcTmsnH">
-        <input type="text" class="form-control col-md-6" placeholder="Your Name *" name="name" rules="required">
-        <input type="email" class="form-control col-md-6" placeholder="Your Email *" name="email" rules="email required">    
-        <textarea class="form-control" placeholder="Your Message *" name="message" rules="required"></textarea>
-        <button type="submit" class="btn btn-xl">Send Message</button>
-    </form>
+<form class="kwes-form" action="https://kwes.io/api/foreign/forms/QN4b2PaM7IQHLwcTmsnH">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="control-group form-group">
+                <input type="text" class="form-control" placeholder="Your Name *" name="name" rules="required">
+            </div>
+            <div class="control-group form-group">
+                <input type="email" class="form-control" placeholder="Your Email *" name="email" rules="email required">    
+            </div>
+            <div class="control-group form-group">
+                <input type="tel" class="form-control" placeholder="Your Phone *" name="phone" rules="required">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="control-group form-group">
+                <input class="form-control" placeholder="Your Message *" name="message" rules="required">
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-12 text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-xl">Send Message</button>
+        </div>
+    </div>
+</form>
