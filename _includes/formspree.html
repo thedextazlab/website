@@ -1,8 +1,29 @@
 <form class="kwes-form" action="https://kwes.io/api/foreign/forms/QN4b2PaM7IQHLwcTmsnH">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="control-group form-group">
                 <input type="text" class="form-control" placeholder="Your Name *" id="name" rules="required">
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="control-group form-group">
                 <input type="email" class="form-control" placeholder="Your Email *" id="email" rules="email required">
+                <p class="help-block text-danger"></p>
+            </div>
+            <div class="control-group form-group">
                 <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" rules="required">
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="control-group form-group">
                 <textarea class="form-control" placeholder="Your Message *" id="message" rules="required"></textarea>
-                <button type="submit" class="btn btn-xl">Send Message</button>
-   
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-12 text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-xl">Send Message</button>
+        </div>
+    </div>
 </form>
