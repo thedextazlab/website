@@ -50,7 +50,7 @@ $('div.modal').on('show.bs.modal', function() {
 $(window).one('load', function(e) {
   $('nav').addClass('DONE').removeClass('LOADING');
   $('.patron').addClass('patron-animate');
-  story = ["Well, I am not sure why you are here, but you must be a geek. Nobody reads console logs unless they missed a shower... seriously, what are you looking for? Hehe!",
+  story = ["Well, I am not sure why you are here, but you must be a geek. Nobody reads console logs unless they skipped a shower... seriously, what are you looking for? Hehe!",
    "..." 
 ]
   for(i=0;i<story.length;i++){
