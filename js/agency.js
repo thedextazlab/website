@@ -15,7 +15,7 @@ $(function() {
     });
     var currentURL = location.href;
     if(currentURL.indexOf("egg")>0){
-        $('section#contact textarea..form-group').attr({placeholder: 'Tell us what you need. Don\'t forget to mention your discount CODE: ' + getURLParams('utm_content').toUpperCase()});
+        $('section#contact textarea.form-group').attr({placeholder: 'Tell us what you need. Don\'t forget to mention your discount CODE: ' + getURLParams('utm_content').toUpperCase()});
     }
 
 });
